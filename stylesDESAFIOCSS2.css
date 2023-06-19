@@ -1,0 +1,166 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Montserrat, sans-serif;
+}
+
+.Wrapper{
+height:100vh;
+width:100vw;
+}
+
+.Container-left{
+display: inline-block;
+height: 100vh;
+width: 65%;
+position: absolute;
+
+}
+
+.Container-right{
+display:inline-block;
+width:35%;
+margin-left: 779px;
+margin-top: 217px;
+}
+
+img{
+position: relative;
+top: 164px;
+left: 125px;
+width: 568px;
+height:500px;
+}
+
+h1{
+font-weight: 900;
+font-size:  100px;
+line-height:  122px; 
+color: #515151;
+margin-left: 86px;
+}
+
+h2{
+font-weight:500 ;
+font-size: 58px;
+line-height: 71px;
+color:#515151; 
+margin-left: 86px;
+}
+
+p{
+font-weight:400 ;
+font-size:24px ;
+line-height: 29px;
+color:#848484 ;
+margin-top: 32px;
+margin-left: 86px;
+}
+
+.button-green{
+width:239px ;
+height:64px ;
+background: #ADFF00;
+border: none;
+border-radius: 30px;
+font-weight: 700;
+line-height: 34px;
+font-size: 28px;
+margin-top:65px;
+margin-left: 86px;
+
+}
+
+a{
+font-weight: 600;
+font-size: 24px;
+line-height:23px ;
+color: #989D9C;
+margin-left: 76px;
+cursor: pointer;
+
+}
+
+.button-lilac{
+width: 110px; ;
+height: 35px;
+background:#665AE1 ;
+border:none;
+border-radius: 20px;
+font-size:24px ;
+line-height: 29px;
+color:#FFFFFF ;
+cursor: pointer;
+margin-left:30px;
+}
+
+.menu-superior{
+margin-top: 44px;
+}
+
+@media screen and (max-width:900px){
+
+    .Container-right{
+        width:100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        }
+        
+        .Container-left{
+        display:block;
+        height:auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+        }
+        
+        img{
+        position:static;
+        max-width:90%;
+        }
+        
+        header{
+            display: none;
+        }
+        
+        h1{
+        font-size:50px ;
+        line-height:61px ;
+        width:263px ;
+        margin:24px 63px 7px 64px ;
+        text-align: center;
+        }
+        
+        h2{
+        font-size:30px ;
+        line-height:37px ;
+        width:232px ;
+        margin:7px 79px 17px 79px ;
+        text-align: center;
+        }
+        
+        p{
+            display:none;
+        }
+        
+        .button-green{
+        margin: 0 auto;
+        display: block;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

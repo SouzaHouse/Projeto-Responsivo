@@ -97,4 +97,3 @@ convertValues()
 
 currencySelect.addEventListener("change", changeCurrency)
 convertButton.addEventListener("click", convertValues)
-
